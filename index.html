@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hamza'dan Kaçış</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hamza'dan Kaçış</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+
+        <div id="ui-layer">
+            <div id="score-board">
+                <div class="score-item">SKOR: <span id="score">0</span></div>
+                <div class="score-item">REKOR: <span id="highScore">0</span></div>
+            </div>
+
+
+
+            <div id="analog-container">
+                <div id="analog-base">
+                    <div id="analog-stick"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-over-screen" class="hidden">
+            <h1>HAMZA TARAFINDAN KATLEDİLDİN</h1>
+            <div class="final-score">SKORUN: <span id="finalScore">0</span></div>
+            <div class="final-score">REKOR: <span id="finalHighScore">0</span></div>
+            <button id="restart-btn">TEKRAR DENE</button>
+            <div class="developer-credit">Created by Yılmaz Baba</div>
+        </div>
+
+        <div id="start-screen">
+            <h1>HAMZA'DAN KAÇIŞ</h1>
+            <p>Engellerden kaç, puanları topla!</p>
+            <p>Hamza seni yakalamadan ne kadar uzağa gidebilirsin?</p>
+            <button id="start-btn">KAÇMAYA BAŞLA</button>
+            <div class="developer-credit">Created by Yılmaz Baba</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
